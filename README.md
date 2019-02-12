@@ -22,8 +22,10 @@
     python version 3.6
     pyperclip
     test editor (atom, vs code or sublime text)
-## Project setup instructions
-    You can install this app by cloning the repository from this link 
+## Set-up and Installation
+    - Clone the Repo
+    - Install python 3.6
+    - Run `python3.6 run.py`
 # link to github:https://github.com/iyerikuzwe/Password-Locker1
 ## Known Bugs
     There are no known bugs so far,everything is working.
