@@ -1,62 +1,23 @@
-import unittest
-from user import User
-
+import unittest #unittest module imported
+from user import User #Importing class User from module user
 
 class TestUser(unittest.TestCase):
     '''
     Test class that defines test cases for the user class behaviours.
-    Args:
-        unittest.TestCase: TestCase class that helps in creating test cases
     '''
-
     def setUp(self):
         '''
         Set up method to run before each test cases.
         '''
-        self.new_user = User("Regine","1234")
-
-    def tearDown(self):
-        """
-        tearDown method that does clean up after each test case runs
-        """
-        User.user_names=[]
+        self.new_user = User("firstUser", "Male", "12@34")
 
     def test_init(self):
-        '''
-        test_init test case to test if the object is initialized properly
-        '''
-
-        self.assertEqual(self.new_user.user_name,"Regine")
-        self.assertEqual(self.new_user.password,"1234")
-
-    def test_save_user(self):
-        """
-        test case to see if the user name is saved into the user usernames
-        """
-        self.new_user.save_user()
-        self.assertEqual(len(User.user_names),1)
-
-    def test_save_multiple_users(self):
-        """
-        test_save_multiple_users to check if we can save multiple usernames to our user_names
-        """
-        self.new_user.save_user()
-        test_user = User("Nicole","5432")
-        test_user.save_user()
-        self.assertEqual(len(User.user_names),2)
-
-    def test_user_exists(self):
-        """
-        test to check if we can return a Boolean if we cannot find the users
-        """
-        self.new_user.save_user()
-        test_user=User("Nicole","5432")
-        test_user.save_user()
-
-        user_exists = User.user_exist("Nicole")
-        self.assertTrue(user_exists)
-
-
+          '''
+          test_init test case to test if the object is initialized properly
+          '''
+          self.assertEqual(self.new_user.user_name, "firstUser")
+          self.assertEqual(self.new_user.gender, "Male")
+          self.assertEqual(self.new_user.password, "12@34")
 
 if __name__ == '__main__':
     unittest.main()

@@ -14,16 +14,25 @@
 ## Behaviour Driven Development
     The user navigates using given short codes 
 
-    cs-The user creates an account user by inputting his/her username and password 
+    cu-The user creates an account user by inputting his/her username and password 
 
-    log-The user logs in the already created account 
+    lg-The user logs in the already created account 
 
-    ac-This is for adding credentials where a user inputs the account type eg twitter,username for the account and the password for the account 
-
-    dc-This is for displaying Credentials 
-
-    ex-This exits the user from the password locker application 
-
+    esc-This exits the user from the password locker application 
+## Getting Started
+    .Clone this repository to your local computer.
+    .Ensure you have python3.6 installed in your computer.
+    .From the terminal navigate to the cloned project folder.
+    .Run python3.6 run.py code in the terminal to launch.
+    .Once you launch, You can either create a new user, or login or exit the application.
+    .If you choose to login(lg), use: example as default username and 12@34 as the default password
+    .If you choose to create a new account, use cu as the code and follow the prompts.
+    .Once logged in, you can:
+     1: View Your saved credentials.
+     2: Add new credentials.
+     3: Remove credentials.
+     4: Search credentials.
+     5: Log Out.
 ## Technologies Used
     This project was generated with Python3.6
 
@@ -37,4 +46,3 @@
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
     The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
