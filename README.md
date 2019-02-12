@@ -47,8 +47,14 @@
 ## Technologies Used
     This project was generated with Python3.6
 
-## Support and contact details
-    If any issues,questions,ideas and concerns are encountered,feel free to contact iyerikuzweregine19@gmail.com
+## Support & Contact
+Mobile number: (+250) 789140216
+
+Email Address: iyerikuzweregine19@gmail.com
+
+github-username: iyerikuzwe
+
+
 
 ## License
     This project is licensed under the MIT License
