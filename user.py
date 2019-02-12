@@ -20,7 +20,7 @@ class User:
         """
         User.user_names.append(self)
 
-    @classmethod.
+    @classmethod
     def user_exist(cls,user_name):
         """
         Method that checks if a user exists from the user_names
