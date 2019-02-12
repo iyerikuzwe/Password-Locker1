@@ -11,7 +11,7 @@
 ## Known Bugs
     There are no known bugs so far,everything is working.
 
-## Behaviour Driven Development.
+## Behaviour Driven Development
     The user navigates using given short codes 
 
     cs-The user creates an account user by inputting his/her username and password 
