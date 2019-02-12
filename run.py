@@ -50,7 +50,7 @@ def main():
     while True:
         print("-"*80)
         print("-"*80)
-        print("Welcome to password Locker Application.")
+        print("Cool!!Welcome to password_Locker Application.")
         print('\n')
         print("The app that saves you from the stress of remembering your passwords for good.")
         print("-"*80)
@@ -67,7 +67,7 @@ def main():
         print('\n')
 
         if short_code == 'cu':
-            print("Create your prefered username")
+            print("Create your preferred username")
             print("-"*29)
             new_username = input()
 
@@ -80,13 +80,13 @@ def main():
             confirm_password = input()
 
             while confirm_password != new_password:
-                print("Sorry, passwords inputted did not match! Try again.")
+                print("Sorry,the inputted passwords did not match! Try again.")
                 print("Enter a password")
                 new_password = input()
                 print("Confirm Your Password")
                 confirm_password = input()
             else:
-                print(f"Congratulations {new_username}! You have created your new account.")
+                print(f"Woooooh {new_username}! You have created your new account.")
                 print("-"*60)
                 print('\n')
                 print("Proceed to your Account")
