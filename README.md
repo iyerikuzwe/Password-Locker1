@@ -3,8 +3,19 @@
 
 ## By Regine Iyerikuzwe
 ## Description of the application
-    This application is aimed to help a user store passwords of different accounts in one password protected account
+    On average a person has at least 5-10 different accounts he or she has signed into. Be it email,social media, entertainment accounts ,job portals...et al. The list can be endless. It becomes really hard to remember all those passwords or even creating new ones. This application allows one to generate and store passwords for various accounts.
 
+    A user will be able to:
+
+    create an account with their details - log in and password.
+    Store their existing login credentials.
+    Generate a password for a new credential/account
+## Prerequisites
+    The following are needed for the application to run on a local computer:
+
+    python version 3.6
+    pyperclip
+    test editor (atom, vs code or sublime text)
 ## Project setup instructions
     You can install this app by cloning the repository from this link 
 # link to github:https://github.com/iyerikuzwe/Password-Locker1
