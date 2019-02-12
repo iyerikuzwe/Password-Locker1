@@ -4,7 +4,7 @@ Run Module by regine iyerikuzwe
 This is the file that runs the application
 Import User Class from User Module and Credential Class from Credential Module
 '''
-from user import User
+from user import User.
 from credential import Credential
 
 def create_user(name, password):
