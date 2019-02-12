@@ -123,7 +123,7 @@ Use these short codes to get around''')
         ex - exit the Password Locker account''')
 
         # Get short codes from the user
-        short_code = input().lower()
+        short_code = input().lower().
 
         if short_code == 'cu':
             '''
