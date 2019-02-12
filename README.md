@@ -15,7 +15,6 @@
     c: Remove existing account
     d: Search for existing account
     e: Log Out
-
 ## Prerequisites
     The following are needed for the application to run on a local computer:
 
