@@ -8,6 +8,13 @@
     1. cu - Creates a new account
     2. lg - log in
     3. esc - Exit the application
+    The user will be met with the following commands while signing in:
+
+    a: View saved account
+    b: Add new account
+    c: Remove existing account
+    d: Search for existing account
+    e: Log Out
 
 ## Prerequisites
     The following are needed for the application to run on a local computer:
