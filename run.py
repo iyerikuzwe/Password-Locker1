@@ -158,7 +158,7 @@ def main():
                                 print("Please use 'y' for yes or 'n' for no!")
                     elif option == 'a':
                         while True:
-                            print("Your registered accounts are as listed below:")
+                            print("Your registered accounts are as listed as below:")
                             print("-"*40)
                             if display_credentials():
 
@@ -168,7 +168,7 @@ def main():
 
                             else:
                                 print('\n')
-                                print("It appears you do not have any accounts yet")
+                                print("It looks like you do not have any accounts yet")
                                 print('\n')
 
                             print("Return to Main Menu? Type y(for yes)/n(for no)")
@@ -286,7 +286,7 @@ def main():
                             print("To generate random password enter keyword 'gp' or 'n' to create your own password")
                             keyword = input().lower()
                             if keyword == 'gp':
-                                acc_password = random.randint(111111, 1111111)
+                                acc_password = random.randint(222222, 2222222)
                                 print(f"Account: {acc_name}")
                                 print(f"Password: {acc_password}")
                                 print('\n')
