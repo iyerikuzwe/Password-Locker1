@@ -1,15 +1,34 @@
+
 class User:
-    user_list = []
+    """
+    A class that generates new instances for users
+    """
+    def __init__(self,user_name,password):
+        """
+        a method to define properties of our object
+        Args:
+            user_name: New user username.
+            password : New user password.
+        """
+        self.user_name=user_name
+        self.password=password
+    user_names = []
 
-    def __init__(self, user_name, user_password):
-
-        self.user_name = user_name
-        self.user_password = user_password
     def save_user(self):
-        User.user_list.append(self)
-    def delete_user(self):
-        User.user_list.remove(self)
+        """
+        save_user method saves user objects into the user_names
+        """
+        User.user_names.append(self)
+
     @classmethod
-    def display_users(cls):
-        return cls.user_list
+    def user_exist(cls,user_name):
+        """
+        Method that checks if a user exists from the user_names
+        """
+        for user in cls.user_names:
+            if user.user_name == user_name:
+                return True
+
+        return False
+
 
