@@ -3,13 +3,12 @@
 
 ## By Regine Iyerikuzwe
 ## Description of the application
-    On average a person has at least 5-10 different accounts he or she has signed into. Be it email,social media, entertainment accounts ,job portals...et al. The list can be endless. It becomes really hard to remember all those passwords or even creating new ones. This application allows one to generate and store passwords for various accounts.
+    Password Locker is an application that helps users generate and store passwords on their multiple accounts. The password locker runs on the terminal and uses short codes to navigate through it. When starting up the application, the user is met with the following shortcodes:
 
-    A user will be able to:
+    1. cu - Creates a new account
+    2. lg - log in
+    3. esc - Exit the application
 
-    create an account with their details - log in and password.
-    Store their existing login credentials.
-    Generate a password for a new credential/account
 ## Prerequisites
     The following are needed for the application to run on a local computer:
 
