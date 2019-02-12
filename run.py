@@ -135,7 +135,7 @@ def main():
                                 print("To generate random password enter keyword 'gen' or 'n' to create your own password")
                                 keyword = input().lower()
                                 if keyword == 'gen':
-                                    acc_password = random.randint(111111, 1111111)
+                                    acc_password = random.randint(2222222, 22222222)
                                     print(f"Account: {acc_name}")
                                     print(f"Password: {acc_password}")
                                     print('\n')
@@ -248,8 +248,8 @@ def main():
             default_user_password = input()
             print('\n')
 
-            while default_user_name != 'example' or default_user_password != '12@34':
-                print("Wrong username/Password. Default Username is 'example' and password is '12@34'")
+            while default_user_name != 'example' or default_user_password != '23@45':
+                print("Wrong username/Password. Default Username is 'example' and password is '23@45'")
                 print("Enter Username")
                 default_user_name = input()
 
@@ -258,7 +258,7 @@ def main():
 
                 print('\n')
 
-            if default_user_name == 'example' and default_user_password == '12@34':
+            if default_user_name == 'example' and default_user_password == '23@45':
                 print("Login Successful!")
                 print('\n')
                 print("Select an option below to continue: Enter 1, 2, 3, 4 or 5")
