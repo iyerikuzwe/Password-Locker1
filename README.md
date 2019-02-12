@@ -7,7 +7,7 @@
 
 ## Project setup instructions
     You can install this app by cloning the repository from this link 
-    https://github.com/iyerikuzwe/Password-Locker1
+# link to github:https://github.com/iyerikuzwe/Password-Locker1
 ## Known Bugs
     There are no known bugs so far,everything is working.
 
