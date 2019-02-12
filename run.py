@@ -44,7 +44,7 @@ def user_log_in(name, password):
         name : the name the user used to create their user account
         password : the password the user used to create their user account
     '''
-    log_in = User.log_in(name, password)
+    log_in = User.log_in(name, password).
     if log_in != False:
         return User.log_in(name, password)
 
