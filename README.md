@@ -24,7 +24,7 @@
 
     ex-This exits the user from the password locker application 
 
-## Technologies Used
+## Technologies Used.
     This project was generated with Python3.6
 
 ## Support and contact details
