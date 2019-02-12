@@ -1,5 +1,5 @@
 
-class User:.
+class User:
     """
     A class that generates new instances for users
     """
