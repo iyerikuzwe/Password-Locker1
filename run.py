@@ -50,7 +50,7 @@ def main():
     while True:
         print("-"*80)
         print("-"*80)
-        print("Cool!!Welcome to password_Locker created by Regine Application.")
+        print("Cool!!Welcome to password_Locker Application created by Regine .")
         print('\n')
         print("The app that saves you from the stress of remembering your passwords for good.")
         print("-"*80)
